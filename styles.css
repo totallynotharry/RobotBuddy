@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#robot {
+    margin: 50px auto;
+    position: relative;
+}
+
+#robotImg {
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+#status {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+}
