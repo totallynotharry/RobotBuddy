@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Pet Robot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="robot">
+        <img id="robotImg" src="robot.png" alt="Robot">
+        <div id="status"></div>
+    </div>
+    <div id="controls">
+        <button onclick="feedPet()">Oil</button>
+        <button onclick="playWithPet()">Play</button>
+        <button onclick="cleanPet()">Clean</button>
+    </div>
+
+    <audio id="oilSound" src="oil.mp3"></audio>
+    <audio id="playSound" src="play.mp3"></audio>
+    <audio id="cleanSound" src="clean.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
